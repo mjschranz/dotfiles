@@ -1,9 +1,6 @@
 [user]
   name = Matthew Schranz
   email = schranz.m@gmail.com
-[github]
-  user = mjschranz
-  token = 984dc82c81104ac3078d54b2cc6fa05b
 [alias]
   po = push origin
   pu = push upstream
