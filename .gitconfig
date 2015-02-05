@@ -1,0 +1,50 @@
+[user]
+  name = Matthew Schranz
+  email = schranz.m@gmail.com
+[github]
+  user = mjschranz
+  token = 984dc82c81104ac3078d54b2cc6fa05b
+[alias]
+  po = push origin
+  pu = push upstream
+  co = checkout
+  ass = add
+  pm = pull upstream master
+  pd = pull upstream develop
+  pud = pull upstream develop
+  modules = submodule update --init --recursive
+  scott = checkout scott
+  cm = commit -m
+  cv = commit -v
+  s = status
+  a = "!git add -u :/ && git status"
+  unstage = "!git reset -- :/ && git status"
+[color]
+  ui = auto
+[color "branch"]
+  current = yellow reverse
+  local = yellow
+  remote = green
+[color "diff"]
+  meta = yellow bold
+  frag = magenta bold
+  old = red bold
+  new = green bold
+[color "status"]
+  added = yellow
+  changed = green
+  untracked = cyan
+[diff]
+  renames = copy
+  tool = vimdiff
+[grep]
+  lineNumber = true
+[core]
+  autocrlf = input
+	editor = vim
+[rerere]
+  enabled = true
+[merge]
+	conflictstyle = diff3
+[push]
+	default = simple
