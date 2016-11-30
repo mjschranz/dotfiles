@@ -6,11 +6,6 @@
   pu = push upstream
   co = checkout
   ass = add
-  pm = pull upstream master
-  pd = pull upstream develop
-  pud = pull upstream develop
-  modules = submodule update --init --recursive
-  scott = checkout scott
   cm = commit -m
   cv = commit -v
   s = status
