@@ -121,7 +121,7 @@
     "window.reopenFolders": "one",
 
     // Adjust the zoom level of the window. The original size is 0 and each increment above (e.g. 1) or below (e.g. -1) represents zooming 20% larger or smaller. You can also enter decimals to adjust the zoom level with a finer granularity.
-    "window.zoomLevel": 1.15,
+    "window.zoomLevel": 1,
 
 
     //-------- Files configuration --------
@@ -131,7 +131,12 @@
         "**/.git": true,
         "**/.svn": true,
         "**/.DS_Store": true,
-        "dist/**": true
+        "dist/**": true,
+        "**/svc": true,
+        "**/build": true,
+        "**/doc": true,
+        "**/prototype": true,
+        "**/blueprint-automationframework": true
     },
 
     // Configure file associations to languages (e.g. "*.extension": "html"). These have precedence over the default associations of the languages installed.
